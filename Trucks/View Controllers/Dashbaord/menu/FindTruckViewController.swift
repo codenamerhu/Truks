@@ -2,7 +2,7 @@
 //  FindTruckViewController.swift
 //  Trucks
 //
-//  Created by SBI Admin on 2020/05/22.
+//  Created by Rhulani Ndlovu on 2020/05/22.
 //  Copyright © 2020 SBI. All rights reserved.
 //
 
