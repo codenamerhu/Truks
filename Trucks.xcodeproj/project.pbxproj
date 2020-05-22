@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5089DFCE24773D510055691C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089DFCD24773D500055691C /* AppDelegate.swift */; };
+		5089DFD024773D510055691C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089DFCF24773D510055691C /* SceneDelegate.swift */; };
+		5089DFD224773D520055691C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089DFD124773D520055691C /* ViewController.swift */; };
+		5089DFD524773D530055691C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5089DFD324773D530055691C /* Main.storyboard */; };
+		5089DFD824773D570055691C /* Trucks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5089DFD624773D550055691C /* Trucks.xcdatamodeld */; };
+		5089DFDA24773DB00055691C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5089DFD924773DB00055691C /* Assets.xcassets */; };
+		5089DFDD24773DB00055691C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5089DFDB24773DB00055691C /* LaunchScreen.storyboard */; };
+		5089DFE824773DB10055691C /* TrucksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089DFE724773DB10055691C /* TrucksTests.swift */; };
+		5089DFF324773DB10055691C /* TrucksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089DFF224773DB10055691C /* TrucksUITests.swift */; };
+		5089E008247740300055691C /* OnBoardingMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E007247740300055691C /* OnBoardingMainViewController.swift */; };
+		5089E00A247761410055691C /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5089E009247761410055691C /* Dashboard.storyboard */; };
+		5089E00C24776BA00055691C /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E00B24776BA00055691C /* DashboardViewController.swift */; };
+		5089E01024777FA20055691C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E00F24777FA20055691C /* MenuViewController.swift */; };
+		5089E01224779B4C0055691C /* FindTruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E01124779B4C0055691C /* FindTruckViewController.swift */; };
+		5089E0142477EB300055691C /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E0132477EB300055691C /* Page1ViewController.swift */; };
+		5089E016247802DF0055691C /* ReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E015247802DF0055691C /* ReservationsViewController.swift */; };
+		5089E0182478193D0055691C /* ReservationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E0172478193D0055691C /* ReservationsTableViewController.swift */; };
+		5089E01A24782ACC0055691C /* InsuranceOffersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E01924782ACC0055691C /* InsuranceOffersCollectionViewController.swift */; };
+		5089E01C24783C7F0055691C /* OfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E01B24783C7F0055691C /* OfferViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5089DFE424773DB10055691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5089DFC224773D4E0055691C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5089DFC924773D4F0055691C;
+			remoteInfo = Trucks;
+		};
+		5089DFEF24773DB10055691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5089DFC224773D4E0055691C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5089DFC924773D4F0055691C;
+			remoteInfo = Trucks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5089DFCA24773D4F0055691C /* Trucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5089DFCD24773D500055691C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5089DFCF24773D510055691C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5089DFD124773D520055691C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5089DFD424773D530055691C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5089DFD724773D550055691C /* Trucks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trucks.xcdatamodel; sourceTree = "<group>"; };
+		5089DFD924773DB00055691C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5089DFDC24773DB00055691C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5089DFDE24773DB00055691C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5089DFE324773DB10055691C /* TrucksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrucksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5089DFE724773DB10055691C /* TrucksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksTests.swift; sourceTree = "<group>"; };
+		5089DFE924773DB10055691C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5089DFEE24773DB10055691C /* TrucksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrucksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5089DFF224773DB10055691C /* TrucksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksUITests.swift; sourceTree = "<group>"; };
+		5089DFF424773DB10055691C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5089E00124773EDE0055691C /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		5089E00224773EDE0055691C /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		5089E00324773EDF0055691C /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		5089E007247740300055691C /* OnBoardingMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingMainViewController.swift; sourceTree = "<group>"; };
+		5089E009247761410055691C /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		5089E00B24776BA00055691C /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5089E00F24777FA20055691C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5089E01124779B4C0055691C /* FindTruckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTruckViewController.swift; sourceTree = "<group>"; };
+		5089E0132477EB300055691C /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		5089E015247802DF0055691C /* ReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsViewController.swift; sourceTree = "<group>"; };
+		5089E0172478193D0055691C /* ReservationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsTableViewController.swift; sourceTree = "<group>"; };
+		5089E01924782ACC0055691C /* InsuranceOffersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceOffersCollectionViewController.swift; sourceTree = "<group>"; };
+		5089E01B24783C7F0055691C /* OfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5089DFC724773D4F0055691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5089DFE024773DB10055691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5089DFEB24773DB10055691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5089DFC124773D4E0055691C = {
+			isa = PBXGroup;
+			children = (
+				5089DFCC24773D4F0055691C /* Trucks */,
+				5089DFE624773DB10055691C /* TrucksTests */,
+				5089DFF124773DB10055691C /* TrucksUITests */,
+				5089DFCB24773D4F0055691C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5089DFCB24773D4F0055691C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5089DFCA24773D4F0055691C /* Trucks.app */,
+				5089DFE324773DB10055691C /* TrucksTests.xctest */,
+				5089DFEE24773DB10055691C /* TrucksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5089DFCC24773D4F0055691C /* Trucks */ = {
+			isa = PBXGroup;
+			children = (
+				5089E00524773FDD0055691C /* View Controllers */,
+				5089E00424773F920055691C /* storyboards */,
+				5089E00024773E630055691C /* customfonts */,
+				5089DFCD24773D500055691C /* AppDelegate.swift */,
+				5089DFCF24773D510055691C /* SceneDelegate.swift */,
+				5089DFD124773D520055691C /* ViewController.swift */,
+				5089DFD924773DB00055691C /* Assets.xcassets */,
+				5089DFDE24773DB00055691C /* Info.plist */,
+				5089DFD624773D550055691C /* Trucks.xcdatamodeld */,
+			);
+			path = Trucks;
+			sourceTree = "<group>";
+		};
+		5089DFE624773DB10055691C /* TrucksTests */ = {
+			isa = PBXGroup;
+			children = (
+				5089DFE724773DB10055691C /* TrucksTests.swift */,
+				5089DFE924773DB10055691C /* Info.plist */,
+			);
+			path = TrucksTests;
+			sourceTree = "<group>";
+		};
+		5089DFF124773DB10055691C /* TrucksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5089DFF224773DB10055691C /* TrucksUITests.swift */,
+				5089DFF424773DB10055691C /* Info.plist */,
+			);
+			path = TrucksUITests;
+			sourceTree = "<group>";
+		};
+		5089E00024773E630055691C /* customfonts */ = {
+			isa = PBXGroup;
+			children = (
+				5089E00124773EDE0055691C /* SFUIText-Bold.ttf */,
+				5089E00224773EDE0055691C /* SFUIText-Medium.ttf */,
+				5089E00324773EDF0055691C /* SFUIText-Regular.ttf */,
+			);
+			path = customfonts;
+			sourceTree = "<group>";
+		};
+		5089E00424773F920055691C /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5089DFD324773D530055691C /* Main.storyboard */,
+				5089DFDB24773DB00055691C /* LaunchScreen.storyboard */,
+				5089E009247761410055691C /* Dashboard.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		5089E00524773FDD0055691C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5089E00D24776BA90055691C /* Dashbaord */,
+				5089E00624773FEC0055691C /* OnBoarding */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5089E00624773FEC0055691C /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				5089E007247740300055691C /* OnBoardingMainViewController.swift */,
+				5089E0132477EB300055691C /* Page1ViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		5089E00D24776BA90055691C /* Dashbaord */ = {
+			isa = PBXGroup;
+			children = (
+				5089E00E24777F8B0055691C /* menu */,
+				5089E00B24776BA00055691C /* DashboardViewController.swift */,
+			);
+			path = Dashbaord;
+			sourceTree = "<group>";
+		};
+		5089E00E24777F8B0055691C /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				5089E00F24777FA20055691C /* MenuViewController.swift */,
+				5089E01124779B4C0055691C /* FindTruckViewController.swift */,
+				5089E015247802DF0055691C /* ReservationsViewController.swift */,
+				5089E0172478193D0055691C /* ReservationsTableViewController.swift */,
+				5089E01924782ACC0055691C /* InsuranceOffersCollectionViewController.swift */,
+				5089E01B24783C7F0055691C /* OfferViewController.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5089DFC924773D4F0055691C /* Trucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5089DFF724773DB10055691C /* Build configuration list for PBXNativeTarget "Trucks" */;
+			buildPhases = (
+				5089DFC624773D4F0055691C /* Sources */,
+				5089DFC724773D4F0055691C /* Frameworks */,
+				5089DFC824773D4F0055691C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trucks;
+			productName = Trucks;
+			productReference = 5089DFCA24773D4F0055691C /* Trucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5089DFE224773DB10055691C /* TrucksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5089DFFA24773DB10055691C /* Build configuration list for PBXNativeTarget "TrucksTests" */;
+			buildPhases = (
+				5089DFDF24773DB10055691C /* Sources */,
+				5089DFE024773DB10055691C /* Frameworks */,
+				5089DFE124773DB10055691C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5089DFE524773DB10055691C /* PBXTargetDependency */,
+			);
+			name = TrucksTests;
+			productName = TrucksTests;
+			productReference = 5089DFE324773DB10055691C /* TrucksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5089DFED24773DB10055691C /* TrucksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5089DFFD24773DB10055691C /* Build configuration list for PBXNativeTarget "TrucksUITests" */;
+			buildPhases = (
+				5089DFEA24773DB10055691C /* Sources */,
+				5089DFEB24773DB10055691C /* Frameworks */,
+				5089DFEC24773DB10055691C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5089DFF024773DB10055691C /* PBXTargetDependency */,
+			);
+			name = TrucksUITests;
+			productName = TrucksUITests;
+			productReference = 5089DFEE24773DB10055691C /* TrucksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5089DFC224773D4E0055691C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SBI;
+				TargetAttributes = {
+					5089DFC924773D4F0055691C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5089DFE224773DB10055691C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5089DFC924773D4F0055691C;
+					};
+					5089DFED24773DB10055691C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5089DFC924773D4F0055691C;
+					};
+				};
+			};
+			buildConfigurationList = 5089DFC524773D4E0055691C /* Build configuration list for PBXProject "Trucks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5089DFC124773D4E0055691C;
+			productRefGroup = 5089DFCB24773D4F0055691C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5089DFC924773D4F0055691C /* Trucks */,
+				5089DFE224773DB10055691C /* TrucksTests */,
+				5089DFED24773DB10055691C /* TrucksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5089DFC824773D4F0055691C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5089DFDD24773DB00055691C /* LaunchScreen.storyboard in Resources */,
+				5089DFDA24773DB00055691C /* Assets.xcassets in Resources */,
+				5089DFD524773D530055691C /* Main.storyboard in Resources */,
+				5089E00A247761410055691C /* Dashboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5089DFE124773DB10055691C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5089DFEC24773DB10055691C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5089DFC624773D4F0055691C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5089DFD224773D520055691C /* ViewController.swift in Sources */,
+				5089E01224779B4C0055691C /* FindTruckViewController.swift in Sources */,
+				5089E00C24776BA00055691C /* DashboardViewController.swift in Sources */,
+				5089DFCE24773D510055691C /* AppDelegate.swift in Sources */,
+				5089E01C24783C7F0055691C /* OfferViewController.swift in Sources */,
+				5089E01A24782ACC0055691C /* InsuranceOffersCollectionViewController.swift in Sources */,
+				5089E01024777FA20055691C /* MenuViewController.swift in Sources */,
+				5089DFD024773D510055691C /* SceneDelegate.swift in Sources */,
+				5089E0142477EB300055691C /* Page1ViewController.swift in Sources */,
+				5089E008247740300055691C /* OnBoardingMainViewController.swift in Sources */,
+				5089E016247802DF0055691C /* ReservationsViewController.swift in Sources */,
+				5089E0182478193D0055691C /* ReservationsTableViewController.swift in Sources */,
+				5089DFD824773D570055691C /* Trucks.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5089DFDF24773DB10055691C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5089DFE824773DB10055691C /* TrucksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5089DFEA24773DB10055691C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5089DFF324773DB10055691C /* TrucksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5089DFE524773DB10055691C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5089DFC924773D4F0055691C /* Trucks */;
+			targetProxy = 5089DFE424773DB10055691C /* PBXContainerItemProxy */;
+		};
+		5089DFF024773DB10055691C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5089DFC924773D4F0055691C /* Trucks */;
+			targetProxy = 5089DFEF24773DB10055691C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5089DFD324773D530055691C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5089DFD424773D530055691C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5089DFDB24773DB00055691C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5089DFDC24773DB00055691C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5089DFF524773DB10055691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5089DFF624773DB10055691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5089DFF824773DB10055691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6TSH57GCP;
+				INFOPLIST_FILE = Trucks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codename-rhu.Trucks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5089DFF924773DB10055691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6TSH57GCP;
+				INFOPLIST_FILE = Trucks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codename-rhu.Trucks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5089DFFB24773DB10055691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6TSH57GCP;
+				INFOPLIST_FILE = TrucksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codename-rhu.TrucksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trucks.app/Trucks";
+			};
+			name = Debug;
+		};
+		5089DFFC24773DB10055691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6TSH57GCP;
+				INFOPLIST_FILE = TrucksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codename-rhu.TrucksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trucks.app/Trucks";
+			};
+			name = Release;
+		};
+		5089DFFE24773DB10055691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6TSH57GCP;
+				INFOPLIST_FILE = TrucksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codename-rhu.TrucksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trucks;
+			};
+			name = Debug;
+		};
+		5089DFFF24773DB10055691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6TSH57GCP;
+				INFOPLIST_FILE = TrucksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codename-rhu.TrucksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trucks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5089DFC524773D4E0055691C /* Build configuration list for PBXProject "Trucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5089DFF524773DB10055691C /* Debug */,
+				5089DFF624773DB10055691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5089DFF724773DB10055691C /* Build configuration list for PBXNativeTarget "Trucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5089DFF824773DB10055691C /* Debug */,
+				5089DFF924773DB10055691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5089DFFA24773DB10055691C /* Build configuration list for PBXNativeTarget "TrucksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5089DFFB24773DB10055691C /* Debug */,
+				5089DFFC24773DB10055691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5089DFFD24773DB10055691C /* Build configuration list for PBXNativeTarget "TrucksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5089DFFE24773DB10055691C /* Debug */,
+				5089DFFF24773DB10055691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5089DFD624773D550055691C /* Trucks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5089DFD724773D550055691C /* Trucks.xcdatamodel */,
+			);
+			currentVersion = 5089DFD724773D550055691C /* Trucks.xcdatamodel */;
+			path = Trucks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5089DFC224773D4E0055691C /* Project object */;
+}
